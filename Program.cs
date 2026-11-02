@@ -32,3 +32,32 @@
 // }
 // Console.WriteLine(isPrime ? "Номер варианта простой" : "Номер варианта составной");
 
+// int[] points = { 8, -1, 10, 9, -1, 7 };
+// int sum = 0, count = 0;
+
+// foreach (int p in points)
+// {
+//     if (p < 0)
+//     {
+//         continue;
+//     }
+//     sum += p;
+//     count++;
+// }
+// Console.WriteLine($"Сумма: {sum}, работ: {count}");
+// int[] groups = { 101, 104, 107, 104, 110 };
+// bool dub = false;
+
+// for (int i = 0; i < groups.Length && !dub; i++)
+// {
+//     for (int j = i + 1; j < groups.Length; j++)
+//     {
+//         if (groups[i] == groups[j])
+//         {
+//             Console.WriteLine($"Дубликат: {groups[i]}");
+//             dub = true;
+//             break;
+//         }
+//     }
+// }
+// Console.WriteLine(dub ? "Есть дубликаты" : "Дубликатов нет");
